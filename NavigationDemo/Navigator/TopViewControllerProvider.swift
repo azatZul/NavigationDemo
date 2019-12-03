@@ -31,7 +31,7 @@ typealias RootViewControllerProvider = () -> UIViewController?
 final class DefaultTopViewControllerProvider: TopViewControllerProvider {
     private let rootViewControllerProvider: RootViewControllerProvider
 
-    init(rootViewControllerProvider: @escaping RootViewControllerProvider = { UIApplication.shared.keyWindow?.rootViewController }) {
+    init(rootViewControllerProvider: @escaping RootViewControllerProvider = { UIApplication.shared.windows.first { $0.isKeyWindow }?.rootViewController }) {
         self.rootViewControllerProvider = rootViewControllerProvider
     }
 
