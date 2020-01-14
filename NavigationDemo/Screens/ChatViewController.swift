@@ -26,7 +26,7 @@ final class ChatViewController: UIViewController {
     private let chatId: String
 
     init(chatId: String) {
-        self.chatId = ""
+        self.chatId = chatId
         super.init(nibName: nil, bundle: nil)
         view.backgroundColor = .white
         title = chatId
