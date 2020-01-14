@@ -1,5 +1,6 @@
 # NavigationDemo
-This is a demo app for showing use-case of the ideas described in the article <link>.
+
+This is a demo app for showing use-case of the ideas described in the [article](https://medium.com/me/stats).
 
 To run the project open `NavigationDemo.xcodeproj`, build and run the app for the desired device.
 
