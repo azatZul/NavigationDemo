@@ -1,6 +1,6 @@
 # NavigationDemo
 
-This is a demo app for showing use-case of the ideas described in the [article](https://medium.com/me/stats).
+This is a demo app for showing use-case of the ideas described in the [article](https://habr.com/ru/company/badoo/blog/483830/).
 
 To run the project open `NavigationDemo.xcodeproj`, build and run the app for the desired device.
 
